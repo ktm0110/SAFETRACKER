@@ -1,0 +1,45 @@
+lane_follow_node:
+  ros__parameters:
+    proc_width: 640
+    warp_w: 320
+    warp_h: 240
+    x_h: 70
+    x_l: 550
+    y_h: 70
+    y_l: 40
+    crop_left: 40
+    crop_top: 80
+    white_l_min: 255
+    white_s_max: 0
+    yellow_h_low: 15        # 그대로 두되
+    yellow_h_high: 70       # ← 요청값
+    yellow_s_min: 20        # ← 요청값
+    yellow_l_min: 90        # ← 요청값 (HLS/L 기준 or HSV/V 기준, 둘 다 이 값이면 충분히 밝음)
+    morph_kernel: 11        # ← 요청값 (홀수 권장)
+    nwindows: 9
+    margin: 55
+    minpix: 50
+    vx_base: 0.20
+    vx_min: 0.08
+    k_steer: 1.8
+    deadband: 0.03
+
+crosswalk_node:
+  ros__parameters:
+    proc_width: 640
+    warp_w: 320
+    warp_h: 240
+    x_h: 70
+    x_l: 550
+    y_h: 70
+    y_l: 40
+    crop_left: 40
+    crop_top: 80
+    hsv_low:  [0, 0, 0]
+    hsv_high: [180, 140, 255]
+    gray_low: 65
+    gray_high: 255
+    min_contours: 4
+    min_white_ratio: 0.10
+    stop_hold_sec: 5.0
+    cooldown_sec: 6.5
