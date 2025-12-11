@@ -1,4 +1,4 @@
-# 🛡️ SAFETRACKER (Autonomous Road Manager)
+# SAFETRACKER (Autonomous Road Manager)
 
 **SAFETRACKER**는 커스텀 **Turtlebot3 Burger** 플랫폼을 기반으로 한 도로 관리용 자율주행 로봇 프로젝트입니다.
 스테레오 카메라(Stereo Camera)를 통한 깊이 추정(Depth Estimation)과 LiDAR 센서 퓨전을 통해 주행 환경을 인식하며, 물리/가상 범퍼 시스템을 도입하여 안전한 자율주행을 구현했습니다.
