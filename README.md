@@ -1,7 +1,7 @@
 # SAFETRACKER (Autonomous Road Manager)
 
-**SAFETRACKER**는 커스텀 **Turtlebot3 Burger** 플랫폼을 기반으로 한 도로 관리용 자율주행 로봇 프로젝트입니다.
-스테레오 카메라(Stereo Camera)를 통한 깊이 추정(Depth Estimation)과 LiDAR 센서 퓨전을 통해 주행 환경을 인식하며, 물리/가상 범퍼 시스템을 도입하여 안전한 자율주행을 구현했습니다.
+**SAFETRACKER**는 커스텀 **Turtlebot3 Burger** 플랫폼을 기반으로 한 도로 관리용 자율주행 로봇 프로젝트
+스테레오 카메라(Stereo Camera)를 통한 깊이 추정(Depth Estimation)과 LiDAR 센서 퓨전을 통해 주행 환경을 인식하며, 물리/가상 범퍼 시스템을 도입하여 안전한 자율주행을 구현
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=6cw76WwYq2I">
@@ -41,7 +41,7 @@
 
 ## 📂 Project Structure
 
-프로젝트는 크게 자율주행 알고리즘 파트와 시스템 제어 파트로 나뉩니다.
+프로젝트는 크게 자율주행 알고리즘 파트와 시스템 제어 파트로 구분
 
 ```bash
 SAFETRACKER
@@ -51,6 +51,7 @@ SAFETRACKER
 │       └── src                        # 센서 드라이버 및 노드 소스코드
 └── 📄 README.md
 ```
+
 ---
 
 ## Hardware Setup
@@ -59,11 +60,3 @@ Mobile Base,Robotis Turtlebot3 Burger (Modified)
 Vision Sensor,Custom Stereo Camera Module
 Lidar,LDS-01 / LDS-02
 Controller, / Jetson Nano
-
-
-<p>
-  click to open youtube
-</p>
-<a href="https://www.youtube.com/watch?v=6cw76WwYq2I">
-  <img src="https://img.youtube.com/vi/6cw76WwYq2I/maxresdefault.jpg" alt="Autonomous truck with steering bumper" width="640">
-</a>
