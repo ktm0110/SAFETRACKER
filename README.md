@@ -3,6 +3,9 @@
 **SAFETRACKER**는 커스텀 **Turtlebot3 Burger** 플랫폼을 기반으로 한 도로 관리용 자율주행 로봇 프로젝트
 스테레오 카메라(Stereo Camera)를 통한 깊이 추정(Depth Estimation)과 LiDAR 센서 퓨전을 통해 주행 환경을 인식하며, 물리/가상 범퍼 시스템을 도입하여 안전한 자율주행을 구현
 
+<img width="960" height="1280" alt="KakaoTalk_20260203_041440322_04-Photoroom" src="https://github.com/user-attachments/assets/c49f8a88-9174-4ec4-bdcb-75e8c35d82ab" />
+
+
 <div align="center">
   <a href="https://www.youtube.com/watch?v=6cw76WwYq2I">
     <img src="https://img.youtube.com/vi/6cw76WwYq2I/maxresdefault.jpg" width="80%" alt="SAFETRACKER Demo Video" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
